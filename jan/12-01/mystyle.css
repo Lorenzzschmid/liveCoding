@@ -1,0 +1,15 @@
+nav {
+    background: black;
+
+}
+nav ul li {
+    display: inline;
+    margin-right: 3rem;
+}
+/*to reach each of the elements
+you need to make the connection 
+in the right connection*/
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
