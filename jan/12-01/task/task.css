@@ -1,0 +1,26 @@
+
+.icon {
+    width: 5%;
+    height: auto;
+        
+}
+
+nav {
+    background: rgb(2, 2, 2);
+    height: 40px;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    
+}
+nav ul li {
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+    margin-right: 3rem;
+
+    
+}
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
