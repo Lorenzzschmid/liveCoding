@@ -1,22 +1,58 @@
-body {
-  background-color: whitesmoke;
+* {
+    margin:0;
+    padding:0;
+  box-sizing: border-box;
 }
-h1,
+body {
+  background-color: orange;
+
+  background-position: center;
+  background-repeat: repeat-x;
+
+  background-size: 30rem;
+}
+/* h1,
 h2,
 h3,
 #top,
 .dark,
 nav ul li a {
   color: blue;
+} */
+/* menu */
+header nav {
+  background-color: rgba(0, 0, 0, 0.76);
+  position: fixed;
 }
+nav ul li {
+  height: 3rem;
+  display: inline;
+  margin-left: 3rem;
+}
+/* main */
 h1 {
-  background-color: gray;
+  /* option 1 */
+  color: red;
+  /* option 2 */
+  color: #ccc;
+  /* option 3 */
+  color: rgb(100, 106, 182);
+  /* option 4 */
+  /* color: rgba(); */
+  background-color: rgba(3, 3, 255, 0.837);
+  font-family: "Indie Flower", "cursive";
+  font-size: 2rem;
+  font-weight: bolder;
 }
+/*
+ DRY
+Don't Repeat Yourself
+*/
 section div {
   width: 3rem;
   height: 3rem;
   border: 2px black solid;
-  border-radius: 50%;
+  
 }
 #red {
   background-color: red;
@@ -26,4 +62,40 @@ section div {
 }
 #green {
   background-color: green;
+}
+/* About main */
+main img {
+  width: 150px;
+  height: 150px;
+  border-top: 40px black solid;
+}
+.shapes div{
+    width: 9rem;
+    height: 9rem;
+    display: inline-block;
+    border:2px black solid;
+    margin-left: 3rem;
+}
+
+#rectangle{
+    height: 15rem;
+    background-color: lightblue;
+    
+}
+
+#triangle{
+    background-color: purple;
+    border-bottom-right-radius: 9rem;
+
+    
+    
+}
+#square{
+    background-color: green;
+
+}
+#circle{
+    background-color: yellow;
+    border-radius: 50%;
+
 }
