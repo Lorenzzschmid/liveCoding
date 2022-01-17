@@ -63,3 +63,9 @@ section div {
 #green {
   background-color: green;
 }
+
+#rectangle{
+    height: 9rem;
+    width: 9rem;
+    display: inline-block;
+}
