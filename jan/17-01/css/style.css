@@ -1,15 +1,15 @@
 * {
-    margin:0;
-    padding:0;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
-body {
-  background-color: orange;
 
+body {
+  /* background-color: orange;
+  background-image: url("../images/sky.jpeg");
   background-position: center;
   background-repeat: repeat-x;
-
-  background-size: 30rem;
+  background-size: 30rem; */
 }
 /* h1,
 h2,
@@ -62,40 +62,4 @@ section div {
 }
 #green {
   background-color: green;
-}
-/* About main */
-main img {
-  width: 150px;
-  height: 150px;
-  border-top: 40px black solid;
-}
-.shapes div{
-    width: 9rem;
-    height: 9rem;
-    display: inline-block;
-    border:2px black solid;
-    margin-left: 3rem;
-}
-
-#rectangle{
-    height: 15rem;
-    background-color: lightblue;
-    
-}
-
-#triangle{
-    background-color: purple;
-    border-bottom-right-radius: 9rem;
-
-    
-    
-}
-#square{
-    background-color: green;
-
-}
-#circle{
-    background-color: yellow;
-    border-radius: 50%;
-
 }
