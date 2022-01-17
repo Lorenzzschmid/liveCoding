@@ -1,3 +1,21 @@
 body {
     background-color: orange;
 }
+/*DRY (code)
+Don't repeat Yourself*/
+section div {
+    width: 3rem;
+    height: 3rem;
+    border: 2px black solid;
+    border-radius: 50%;
+}
+
+#red {
+    background-color: red;
+}
+#orange {
+    background-color: orange;
+}
+#green {
+    background-color: green;
+}
