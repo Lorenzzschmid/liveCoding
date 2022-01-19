@@ -117,5 +117,12 @@ table:hover {
 /* :active */
 
 /* :checked */
+[type="checkbox"]:checked{
+  width:3rem;
+}
 
 /* :nth-child() */
+tr:nth-child(2n + 1)
+/* 2n jeder zweiter + 1 start beim ersten */
+tr:nth-child(3n+2)
+/* jeder dritter start beim zweiten */
