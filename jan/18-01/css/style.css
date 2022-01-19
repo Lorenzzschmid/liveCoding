@@ -42,9 +42,12 @@ img {
   filter: grayscale(0);
 }
 /* table */
-table, tr, td, th {
-    border: 2px black solid;
-    width: 1rem;
 
-    
+table,
+tr,
+td,
+th {
+  border: 2px red dotted;
+  width: 1rem;
+  border-spacing: 33px;
 }
