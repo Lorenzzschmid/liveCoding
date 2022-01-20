@@ -55,7 +55,8 @@ header li {
 /* element>element	 Selector  
     element parent element 
     */
-div > p {
+div > p { 
+  
   background-color: aqua;
 }
 /* element+element  Selector

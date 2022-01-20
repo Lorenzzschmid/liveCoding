@@ -1,10 +1,29 @@
 * {
+  /* wirkt sich auf jedes Element aus, deshalb immer 
+  vorsicht beim benutzen */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 :root {
+  /* Hier kann ich eine variable erstellen, die ich auf 
+  das ganze Projekt anwenden kann (ähnlich dem Konzept 
+  in SASS. */
+  --my-color: rgb(5, 97, 2);
+  --my-font-size: 3rem;
+  --other-color: rgba(222, 77, 9, 0,5)
+  --header-font-family: "Lucida Sans" Geneva, Verdana, sans-serif;
+  /* Durch wieviele Elemente muss ich gehen um etwas zu ändern - mit der Variablen nur in diesem "container"*/
+  --box-width: 3rem;
+  --img-height: 44rem;
 }
+body{
+  color: var(--my-color)
+}
+h1 {
+  border: 2px var(--my-color) solid;  
+}
+
 /* body {
     background-color: red;
   } */
@@ -21,6 +40,15 @@
 /*   
     :before css2 and ::before is css3
   */
+  h1::after{
+    content:"😀";
+    /* für kleiner Änderungen, was nicht die ganze html Datei ändern muss - wenn man das Passwort falsch eingegeben hat etc.  */
+  }
+  h1{
+    h1::before{
+      content: "😀";
+    }
+  }
 
 /* ::placeholder  */
 
