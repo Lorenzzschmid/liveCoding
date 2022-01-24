@@ -7,13 +7,19 @@
 }
 :root {
   font-size: 16px;
+<<<<<<< HEAD
   /* Hier kann ich eine variable erstellen, die ich auf 
   das ganze Projekt anwenden kann (ähnlich dem Konzept 
   in SASS. */
   --my-color: rgb(5, 97, 2);
+=======
+  /* hey I have something for you */
+  --my-color: orange;
+>>>>>>> b42741b5a9f832a5ef766ef6351715e91b598917
   --my-font-size: 3rem;
   --other-color: rgba(222, 77, 9, 0,5)
   --header-font-family: "Lucida Sans" Geneva, Verdana, sans-serif;
+<<<<<<< HEAD
   /* Durch wieviele Elemente muss ich gehen um etwas zu ändern - mit der Variablen nur in diesem "container"*/
   --box-width: 3rem;
   --img-height: 44rem;
@@ -28,12 +34,25 @@ h1 {
 /* body {
     background-color: red;
   } */
+=======
+  --box-width: 3rem;
+  --img-height: 44rem;
+}
+body {
+  color: var(--my-color);
+}
+h1 {
+  border: 2px var(--my-color) solid;
+}
+>>>>>>> b42741b5a9f832a5ef766ef6351715e91b598917
 /* pseudo elements VS  pseudo classes */
 
 /* pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s). */
 /* more pseudo classes
   :valid
-  :hover */
+  :hover
+  
+  */
 
 /* pseudo-element is a keyword added to a selector that lets you style a specific part of the selected element(s) */
 
@@ -41,6 +60,7 @@ h1 {
 /*   
     :before css2 and ::before is css3
   */
+<<<<<<< HEAD
   h1::after{
     content:"😀";
     /* für kleiner Änderungen, was nicht die ganze html Datei ändern muss - wenn man das Passwort falsch eingegeben hat etc.  */
@@ -55,11 +75,24 @@ h1 {
 input[type="text"]::placeholder, input[type="password"]::placeholder{
   color: var(--my-color), ;
   /* stylen des Placeholders - entweder text oder mit comma dasselbe nochmal aber mit type=password */
+=======
+h1::after {
+  content: "😎";
+}
+h1::before {
+  content: "🎉";
+}
+/* ::placeholder  */
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+  color: var(--my-color);
+>>>>>>> b42741b5a9f832a5ef766ef6351715e91b598917
 }
 /* ::first-letter (:first-letter) */
 p::first-letter {
   color: var(--other-color);
   /* font-size: 4rem; */
+<<<<<<< HEAD
   /* font-size: calc(var(--my-font-size)-1rem); */
   font-size: calc(var(--my-font-size)*1);
 /* mit dem calculator kann man verschiedene basic rechnungen machen. px, rem, % etc. */
@@ -80,7 +113,25 @@ display: none;
 /* mit opacity bleibt das bild wo es ist, mit :none kollabiert das Bild - man kann es sozusagen rausnehmen */
 }
 
+=======
+  /* font-size: calc(var(--my-font-size) - 1rem); */
+  font-size: calc(var(--my-font-size) * 1);
+}
+/* display:none vs opacity: 0 */
+div {
+  border: 2px black solid;
+}
+>>>>>>> b42741b5a9f832a5ef766ef6351715e91b598917
 /* vh & vw */
+.car {
+  /* view port width */
+  width: 50vw;
+  /* view port height */
+  height: 50vh;
+  filter: grayscale(10);
+  /* opacity: 0.3; */
+  display: none;
+}
 
 /* visual content like img */
 /*  % , border-radius */
