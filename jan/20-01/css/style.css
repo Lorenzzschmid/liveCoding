@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 :root {
+  font-size: 16px;
   /* Hier kann ich eine variable erstellen, die ich auf 
   das ganze Projekt anwenden kann (ähnlich dem Konzept 
   in SASS. */
@@ -51,10 +52,33 @@ h1 {
   }
 
 /* ::placeholder  */
-
+input[type="text"]::placeholder, input[type="password"]::placeholder{
+  color: var(--my-color), ;
+  /* stylen des Placeholders - entweder text oder mit comma dasselbe nochmal aber mit type=password */
+}
 /* ::first-letter (:first-letter) */
+p::first-letter {
+  color: var(--other-color);
+  /* font-size: 4rem; */
+  /* font-size: calc(var(--my-font-size)-1rem); */
+  font-size: calc(var(--my-font-size)*1);
+/* mit dem calculator kann man verschiedene basic rechnungen machen. px, rem, % etc. */
+}
+
 
 /* display:none vs opacity: 0 */
+.car {
+/* vie port width */
+width: 15vw;
+/* view port height */
+height: 15vh;
+/* Hier soll das Bild mitwachsen oder schrumpfen mit dem Bildschirm - wichtig wenn man andere Devices benutzt - responsive Website */
+/* 15vw nimmt sich 15% der sichtbaren Seite */
+filter: grayscale(10);
+opacity: 0,7;
+display: none; 
+/* mit opacity bleibt das bild wo es ist, mit :none kollabiert das Bild - man kann es sozusagen rausnehmen */
+}
 
 /* vh & vw */
 
