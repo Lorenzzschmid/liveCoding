@@ -86,6 +86,7 @@ select:focus {
 }
 .switch input:checked + .slider::before {
   transform: translateX(2.5rem);
+
   /* transition: 3s; */
 }
 
