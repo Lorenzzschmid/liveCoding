@@ -86,8 +86,11 @@ select:focus {
 }
 .switch input:checked + .slider::before {
   transform: translateX(2.5rem);
+<<<<<<< HEAD
 
   /* transition: 3s; */
+=======
+>>>>>>> ac1588b1bdf22593892bef141395231dd32e858c
 }
 
 /* font-awesome */
