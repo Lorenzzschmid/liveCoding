@@ -1,6 +1,8 @@
 .container {
+  background-color: green;;
   display: flex;
   justify-content: space-evenly;
+  background-color: green;
   /* flex-direction: row;
   flex-wrap: wrap; */
   /* shorthand */
