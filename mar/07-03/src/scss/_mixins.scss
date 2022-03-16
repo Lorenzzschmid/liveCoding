@@ -16,8 +16,8 @@ to check something
   }
 }
 .box1 {
-  @include find-div-width("xs");
-  background-color: orange;
+  @include find-div-width("sm");
+  background-color: blue;
   height: 5rem;
 }
 .box2 {

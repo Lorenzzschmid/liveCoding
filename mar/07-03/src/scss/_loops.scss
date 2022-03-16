@@ -1,38 +1,38 @@
 @keyframes move {
-  from {
+    from {
     transform: scaleY(1);
   }
-  to {
-    transform: scaleY(1.5);
-  }
+  to{
+   transform: scaleY(2.5);
+  }  
 }
 .main-box {
   display: grid;
-  grid-template-columns: repeat($item-count, 1fr);
-  grid-template-rows: 1fr;
+  grid-template-columns: repeat($item-count, 1rem);
+  grid-template-rows: 2rem;
   height: 100vh;
 }
 @mixin move-animation-setup($duration) {
   animation-name: move;
   animation-duration: $duration;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
+  animation-iteration-count:initial;
+  animation-direction: initial;
+  animation-timing-function: initial;
 }
 @for $i from 1 through $item-count {
   // hey i go form 1 to 30 and every round add by one
   .item:nth-child(#{$i}) {
-    background-color: lighten(orange, random(40));
-    height: random(40) + vh;
-    border-radius: 20% 0;
+    background-color: lighten(blue, random(40));
+    height: random(100) + vh;
+    border-radius: 50% 0;
     //    @if ($i % 2 0= 0)  even
     // @if ($i % 2 != 0) {
     @if ($i % 2 != 0) {
       background-color: rgba(
-        random(200) + 10,
-        random(100) + random(150),
-        random(200) + $i,
-        random(1)
+        random(50) + 500,
+        random(50) + random(150),
+        random(50) + $i,
+        random(50)
       );
       align-self: end;
     }
