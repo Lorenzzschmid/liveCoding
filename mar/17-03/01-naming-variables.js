@@ -29,7 +29,6 @@ const myBackgroundColor = "green";
 let isMarried = false;
 let isTeacher = true;
 let isLoggedIn = false;
-
 let canDrive = true;
 
 let hasChildren = false;

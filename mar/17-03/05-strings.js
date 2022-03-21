@@ -23,7 +23,7 @@ console.log(emptyString.length);
  * so the first character in a string is at index 0
  *
  * To get a single character out of a string, we use the bracket notation, and
- * we specity the index inside of the brackets:
+ * we specify the index inside of the brackets:
  * 
  * greeting[0]
  * 
