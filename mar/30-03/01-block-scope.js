@@ -64,3 +64,4 @@ console.log(`it's ${hour}, ${message}`);
  * The global scope is accessible from everywhere, even from a local scope.
  * The local scope is accessible only from the local scope itself.
  */
+

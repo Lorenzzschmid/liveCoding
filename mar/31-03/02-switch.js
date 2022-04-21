@@ -42,3 +42,21 @@ switch (day) {
   default:
     console.log("that's not a real day");
 }
+
+let animals = "Lenica"; 
+switch(animals) {
+  case 'Frog': 
+  case 'Zebra':
+  case 'Fox': 
+  case 'Orangutan': 
+  case 'Crocodile': 
+  console.log(`The ${animals} will go to the arc.`)
+  break;
+  case 'Human':
+  console.log(`This creature: ${animals} will not go to the arc!`)
+  break;
+  default: 
+  console.log('No way, this animal will not be on the arc!'); 
+
+}
+

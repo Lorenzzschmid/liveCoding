@@ -11,3 +11,4 @@ let uppercaseGreeting = greeting.toUpperCase();
 console.log(uppercaseGreeting);
 
 console.log(uppercaseGreeting.toLowerCase()); // hello world
+

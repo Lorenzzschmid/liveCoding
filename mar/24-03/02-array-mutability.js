@@ -40,5 +40,4 @@ let box = ["pen", "paper", "marker"];
 
 box = "pen";
 
-
 const products = ["t-shirt", "jeans", "shoes", "hat"]

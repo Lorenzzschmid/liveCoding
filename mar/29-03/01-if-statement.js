@@ -6,7 +6,7 @@ if (hour >= 12) {
 
 console.log("after the if");
 
-// let day = "Tuesday";
+// let day = "Tuesday";+
 
 // if (day === "Saturday" || day === "Sunday") {
 //   console.log("it's the weekend!");
