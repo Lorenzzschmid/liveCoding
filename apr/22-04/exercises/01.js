@@ -18,7 +18,9 @@
  * Create a function to print out the movie information like so: 
  * "Puff the Magic Dragon lasts for 30 minutes. Stars: Puff, Jackie, Living Sneezes."
  */
-
+function print(movie) {
+    console.log(`Movie Title: ${movie.title} lasts for ${duration}. Stars: ${movie.stars}`)
+}
 /**
  * 03 medium
  * 
