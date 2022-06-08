@@ -2,10 +2,10 @@
 const box = document.querySelector(".box");
 
 const whiteBg = () => {
-  box.style.backgroundColor = "white";
+  box.style.backgroundColor = "blue";
 };
 const orangeBg = () => {
-  box.style.backgroundColor = "orange";
+  box.style.backgroundColor = "red";
 };
 box.addEventListener("mouseenter", orangeBg);
 box.addEventListener("mouseleave", whiteBg);
