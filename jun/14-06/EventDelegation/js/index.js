@@ -61,7 +61,7 @@ list.addEventListener("click", (event) => {
   }
 
   // If the target that was clicked is a button
-  if (event.target.matches("button")) {
-    list.removeChild(event.target.parentElement);
+  if (event.target.matches("button")) {   //target is what we click on 
+    list.removeChild(event.target.parentElement); //list is the unordered list
   }
 });
