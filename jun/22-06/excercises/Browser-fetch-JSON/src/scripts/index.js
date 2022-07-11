@@ -12,7 +12,6 @@ const sections = [
   document.getElementById("biscuits"),
   document.getElementById("bread"),
 ];
-
 Object.entries(recipes).forEach((tuple) => {
   tuple[1].map((recipe) => {
     sections.forEach((section) => {
@@ -31,3 +30,4 @@ Object.entries(recipes).forEach((tuple) => {
     });
   });
 });
+
